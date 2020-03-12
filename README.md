@@ -1,4 +1,4 @@
-
+-
 # LeaderAssit
 LUA project - World of Warcraft - Help leader and pug group to commnicate
 
@@ -7,21 +7,21 @@ LUA project - World of Warcraft - Help leader and pug group to commnicate
 Creation of an addons assisting Raid leaders and MM+ groups. 
 User case: 
 Healers: 
-Automatically create rotation colddown base en the current heal setup 
-Automatically call for decast to the group (may need another addons like WA) 
-Decast 
-Automatically assign decast base on the current group setup 
-Automatically call for decast to the group (may need another addons like WA) 
-Optionnal:  
-Invitation calendrier : https://www.curseforge.com/wow/addons/iskar-assist 
-Je veux pouvoir programmer mes raids / MM+ utilisant les ranks de la guilde 
-Je veux pouvoir ajouter des personnes dans les invitations régulières (MM+ orientation) 
-Je veux pouvoir créer des invitations régulièrement automatiquement. 
-Je veux pouvoir savoir ce qui manque d’un coup d’oeil à lors d’une invitation 
-Gestion groupe de raid : https://www.curseforge.com/wow/addons/iskar-assist 
-Je veux pouvoir organiser mon groupe raid selon un parttern régulière initiale. 
-Je veux pouvoir customiser l’organisation de mon groupe de raid. 
-Je veux pouvoir changer le groupe de raid même si des membres sont en combat. 
+- Automatically create rotation colddown base en the current heal setup 
+- Automatically call for decast to the group (may need another addons like WA) 
+- Decast 
+- Automatically assign decast base on the current group setup 
+- Automatically call for decast to the group (may need another addons like WA) 
+- Optionnal:  
+- Invitation calendrier : https://www.curseforge.com/wow/addons/iskar-assist 
+- Je veux pouvoir programmer mes raids / MM+ utilisant les ranks de la guilde 
+- Je veux pouvoir ajouter des personnes dans les invitations régulières (MM+ orientation) 
+- Je veux pouvoir créer des invitations régulièrement automatiquement. 
+- Je veux pouvoir savoir ce qui manque d’un coup d’oeil à lors d’une invitation 
+- Gestion groupe de raid : https://www.curseforge.com/wow/addons/iskar-assist 
+- Je veux pouvoir organiser mon groupe raid selon un parttern régulière initiale. 
+- Je veux pouvoir customiser l’organisation de mon groupe de raid. 
+- Je veux pouvoir changer le groupe de raid même si des membres sont en combat. 
  
 Data needed: 
 Healers Cd’s :  
