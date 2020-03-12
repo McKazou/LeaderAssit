@@ -24,33 +24,32 @@ Healers:
 - Je veux pouvoir changer le groupe de raid même si des membres sont en combat. 
  
 Data needed: 
-Healers Cd’s :  
-List every Cd for every heal and assit heal CD’s (kind of data base) 
+ - Healers Cd’s :  
+ - List every Cd for every heal and assit heal CD’s (kind of data base) 
 
-Saut de page
  
-Database : 
+/*Database : 
 Classe : 
 Id 
 Name https://wowwiki.fandom.com/wiki/Class 
-Color https://wowwiki.fandom.com/wiki/Class_colors 
+Color https://wowwiki.fandom.com/wiki/Class_colors */
  
 To do: 
-Get interface infos : 
-In wow : /run print((select(4,GetBuildInfo()))); 
-Create a folder “LeaderAssit” and put in in the addon folder: 
-Put the fil .toc and .lua in it 
-Wow will look for .toc and inside we will call every part needed 
-Even on login: 
-Can say the version 
-local EventFrame = CreateFrame("Frame") 
-EventFrame:RegisterEvent("PLAYER_LOGIN") 
-EventFrame:SetScript("OnEvent", function(self,event,...)  
+ - Get interface infos : 
+ - In wow : /run print((select(4,GetBuildInfo()))); 
+ - Create a folder “LeaderAssit” and put in in the addon folder: 
+ - Put the fil .toc and .lua in it 
+ - Wow will look for .toc and inside we will call every part needed 
+ - Even on login: 
+ - Can say the version 
+ - local EventFrame = CreateFrame("Frame") 
+ - EventFrame:RegisterEvent("PLAYER_LOGIN") 
+ - EventFrame:SetScript("OnEvent", function(self,event,...)  
      ChatFrame1:AddMessage('WhyHelloThar ".. UnitName("Player")) 
 end) 
-Fichier xml to import library 
-embeds.xml 
-Use this xml file to specify the locations of libraries that should be loaded (typically referencing the library's own XML file via Include). As an example, using LibStub and loading a pair of Ace3 libraries from a Libs subdirectory in the addon's folder: 
+ - Fichier xml to import library 
+ - embeds.xml 
+ - Use this xml file to specify the locations of libraries that should be loaded (typically referencing the library's own XML file via Include). As an example, using LibStub and loading a pair of Ace3 libraries from a Libs subdirectory in the addon's folder: 
 <Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">  <Script file="Libs\LibStub\LibStub.lua"/>  <Include file="Libs\AceAddon-3.0\AceAddon-3.0.xml"/>  <Include file="Libs\AceConsole-3.0\AceConsole-3.0.xml"/></Ui> 
 Additional libraries can be added by adding additional Include lines. You could also reference each library's xml file in your addon's .toc file instead, but embeds.xml helps make it clearer which parts of the code belong to the addon itself, and which are part of shared libraries. 
  
